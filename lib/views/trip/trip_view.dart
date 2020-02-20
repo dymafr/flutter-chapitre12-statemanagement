@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:projet_dyma_end/models/city_model.dart';
-import 'package:projet_dyma_end/models/trip_model.dart';
 import 'package:projet_dyma_end/providers/city_provider.dart';
-import 'package:projet_dyma_end/providers/trip_provider.dart';
 import 'package:projet_dyma_end/views/trip/widgets/trip_activities.dart';
 import 'package:projet_dyma_end/views/trip/widgets/trip_city_bar.dart';
 import 'package:provider/provider.dart';

@@ -47,7 +47,7 @@ class TripActivityList extends StatelessWidget {
                         ),
                       ),
                       onDismissed: (_) {
-                        Provider.of<TripProvider>(context)
+                        Provider.of<TripProvider>(context, listen: false)
                             .setActivityToDone(activity);
                       },
                     )
